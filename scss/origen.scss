@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+ }
+
+/*import*/  
+
+
+@import "estructura";
+@import "mediaq";
+
+
+
+
+/*anidamiento*/
+
+ul{
+    list-style-type: none;
+    background-color: azure;
+    font-size: 20px;
+    height: 29px;
+    padding-top: 6px;
+    li{
+        background-color: azure;
+    width: 120px;
+    padding-right: 40px;
+    padding-left: 90px;
+    margin-bottom: 50px;
+    a{
+        color: black;
+    }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+    

@@ -1,0 +1,26 @@
+
+
+/*variable*/
+
+$colorFondo:salmon;
+$color:black;
+
+
+header{
+    grid-area: header;
+    background-color:$colorFondo;
+ }
+ main{
+    grid-area: main;
+    background-color:$colorFondo;
+ }
+ section{
+    grid-area: foto;
+    background-color:$colorFondo;
+ }
+ 
+ footer{
+    grid-area: footer;
+    background-color:$colorFondo;
+    color: $color;
+ }

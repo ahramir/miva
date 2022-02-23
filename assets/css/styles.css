@@ -89,9 +89,8 @@ ul li a{
     justify-content: center;
     align-items: center;
     font-size: 40px;
-    color: white;
     background-color:salmon;
-    color: blanchedalmond;
+    color:azure;
     padding-left: 30px;
     
    }
@@ -124,6 +123,8 @@ ul li a{
    p{
       margin-top: 30px;
       font-size: 20px;
+      
+      
    }
 
    .border5{
@@ -167,7 +168,7 @@ ul li a{
       animation-name: titulo2;
       animation-iteration-count: 1;
       animation-duration: 1s;
-      color: black;
+      color:black;
       animation-timing-function: cubic-bezier(.33,.2,.25,.85);
    }
 

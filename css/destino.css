@@ -7,24 +7,25 @@
 
 /*import*/
 /*variable*/
+/*extend*/
+.bgc-color, footer, section, main, header {
+  background-color: salmon;
+}
+
 header {
   grid-area: header;
-  background-color: salmon;
 }
 
 main {
   grid-area: main;
-  background-color: salmon;
 }
 
 section {
   grid-area: foto;
-  background-color: salmon;
 }
 
 footer {
   grid-area: footer;
-  background-color: salmon;
   color: black;
 }
 
@@ -405,6 +406,26 @@ footer {
     padding-top: 50px;
   }
 }
+/*mixin*/
+.letraGrande {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.letraMediana {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+/*maps*/
+.colorTitulos {
+  color: azure;
+}
+
+.colorTextos {
+  color: blanchedalmond;
+}
+
 /*anidamiento*/
 ul {
   list-style-type: none;

@@ -6,21 +6,30 @@ $colorFondo:salmon;
 $color:black;
 
 
+/*extend*/
+
+.bgc-color{
+   background-color:$colorFondo;
+}
+
+
 header{
     grid-area: header;
-    background-color:$colorFondo;
+    @extend .bgc-color;
  }
  main{
     grid-area: main;
-    background-color:$colorFondo;
+    @extend .bgc-color;
  }
  section{
     grid-area: foto;
-    background-color:$colorFondo;
+    @extend .bgc-color;
  }
  
  footer{
     grid-area: footer;
-    background-color:$colorFondo;
+    @extend .bgc-color;
     color: $color;
  }
+
+ 
